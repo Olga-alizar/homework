@@ -7,9 +7,9 @@ int min = m % 60;
 int h = (m - min) / 60;
 int d = s / 86400;
 int n = s / 604800;
-System.out.println(min + " минут " + sec + " секунд ");
-System.out.println(h + " часов " + min + " минут " + sec + " секунд ");
-System.out.println(d + " дней " + h + " часов " + min + " минут " + sec + " секунд ");
-System.out.println(n + " недель " + d + " дней " + h + " часов " + min + " минут " + sec + " секунд");
+System.out.println(min + " РјРёРЅСѓС‚ " + sec + " СЃРµРєСѓРЅРґ ");
+System.out.println(h + " С‡Р°СЃРѕРІ " + min + " РјРёРЅСѓС‚ " + sec + " СЃРµРєСѓРЅРґ ");
+System.out.println(d + " РґРЅРµР№ " + h + " С‡Р°СЃРѕРІ " + min + " РјРёРЅСѓС‚ " + sec + " СЃРµРєСѓРЅРґ ");
+System.out.println(n + " РЅРµРґРµР»СЊ " + d + " РґРЅРµР№ " + h + " С‡Р°СЃРѕРІ " + min + " РјРёРЅСѓС‚ " + sec + " СЃРµРєСѓРЅРґ");
 }
 }
